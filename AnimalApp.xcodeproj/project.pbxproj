@@ -46,6 +46,10 @@
 		57A89BAE27AD1E1A007B9B1B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A89BA527AD1E1A007B9B1B /* MainView.swift */; };
 		57A89BAF27AD1E1A007B9B1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A89BA627AD1E1A007B9B1B /* ContentView.swift */; };
 		57A89BB027AD1E1A007B9B1B /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A89BA727AD1E1A007B9B1B /* VideoListView.swift */; };
+		57A89BB527AD1ECF007B9B1B /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A89BB127AD1ECF007B9B1B /* ListRowView.swift */; };
+		57A89BB627AD1ECF007B9B1B /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A89BB227AD1ECF007B9B1B /* CoverImageView.swift */; };
+		57A89BB727AD1ECF007B9B1B /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A89BB327AD1ECF007B9B1B /* VideoListItemView.swift */; };
+		57A89BB827AD1ECF007B9B1B /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A89BB427AD1ECF007B9B1B /* GridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +93,10 @@
 		57A89BA527AD1E1A007B9B1B /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		57A89BA627AD1E1A007B9B1B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57A89BA727AD1E1A007B9B1B /* VideoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		57A89BB127AD1ECF007B9B1B /* ListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListRowView.swift; path = "../../../SWIFTUI-APP-AFRICA/SWIFTUI-APP-AFRICA-UPDATED/Students/AfrikaApp/ListRowView.swift"; sourceTree = "<group>"; };
+		57A89BB227AD1ECF007B9B1B /* CoverImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverImageView.swift; path = "../../../SWIFTUI-APP-AFRICA/SWIFTUI-APP-AFRICA-UPDATED/Students/AfrikaApp/AfrikaApp/App/CoverImageView.swift"; sourceTree = "<group>"; };
+		57A89BB327AD1ECF007B9B1B /* VideoListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoListItemView.swift; path = "../../../SWIFTUI-APP-AFRICA/SWIFTUI-APP-AFRICA-UPDATED/Students/AfrikaApp/AfrikaApp/App/VideoListItemView.swift"; sourceTree = "<group>"; };
+		57A89BB427AD1ECF007B9B1B /* GridItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridItemView.swift; path = "../../../SWIFTUI-APP-AFRICA/SWIFTUI-APP-AFRICA-UPDATED/Students/AfrikaApp/GridItemView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +216,10 @@
 				57A89B9227AD1DD8007B9B1B /* VideoPlayerView.swift */,
 				57A89B9327AD1DD8007B9B1B /* VideoListModel.swift */,
 				57A89B8E27AD1DD8007B9B1B /* FactView.swift */,
+				57A89BB227AD1ECF007B9B1B /* CoverImageView.swift */,
+				57A89BB427AD1ECF007B9B1B /* GridItemView.swift */,
+				57A89BB127AD1ECF007B9B1B /* ListRowView.swift */,
+				57A89BB327AD1ECF007B9B1B /* VideoListItemView.swift */,
 				57A89B9027AD1DD8007B9B1B /* InsetMapView.swift */,
 				57A89B9127AD1DD8007B9B1B /* SwiftUIView.swift */,
 				57A89B9427AD1DD8007B9B1B /* InsetGalleryView.swift */,
@@ -320,6 +332,7 @@
 			files = (
 				57A89B6727AD1DB0007B9B1B /* CodableBundelExtension.swift in Sources */,
 				57A89B6C27AD1DB3007B9B1B /* CoverImageModel.swift in Sources */,
+				57A89BB627AD1ECF007B9B1B /* CoverImageView.swift in Sources */,
 				57A89BAF27AD1E1A007B9B1B /* ContentView.swift in Sources */,
 				57A89BAA27AD1E1A007B9B1B /* AfrikaApp.swift in Sources */,
 				57A89B9A27AD1DD8007B9B1B /* HeadingView.swift in Sources */,
@@ -327,8 +340,11 @@
 				57A89BA927AD1E1A007B9B1B /* CoverImageView.swift in Sources */,
 				57A89B9627AD1DD8007B9B1B /* VideoListModel.swift in Sources */,
 				57A89B9527AD1DD8007B9B1B /* FactView.swift in Sources */,
+				57A89BB827AD1ECF007B9B1B /* GridItemView.swift in Sources */,
 				57A89B9927AD1DD8007B9B1B /* SwiftUIView.swift in Sources */,
 				57A89BAB27AD1E1A007B9B1B /* MotionAnimationView.swift in Sources */,
+				57A89BB527AD1ECF007B9B1B /* ListRowView.swift in Sources */,
+				57A89BB727AD1ECF007B9B1B /* VideoListItemView.swift in Sources */,
 				57A89B9727AD1DD8007B9B1B /* WikipediaLinkView.swift in Sources */,
 				57A89B7527AD1DB8007B9B1B /* LocationModal.swift in Sources */,
 				57A89BA827AD1E1A007B9B1B /* MapView.swift in Sources */,
